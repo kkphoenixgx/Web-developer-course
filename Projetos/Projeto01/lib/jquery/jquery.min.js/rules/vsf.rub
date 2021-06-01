@@ -1,0 +1,67 @@
+// Rule that returns all elements in a VSF
+vsf :: Element, ca.ubc.jquery.vsf.VsfTerm
+MODES
+	(F,F) IS NONDET
+END
+
+// The user defined queries for each VSF stored as a string
+// The string is used to define a vsfRule
+// The rule is defined in Element's javadoc.
+vsfRuleString :: Element, ca.ubc.jquery.vsf.VsfTerm, String
+MODES
+	(F,F,F) IS NONDET
+END
+
+// Rule supplied by the user for populating a VSF
+vsfRule :: Element, ca.ubc.jquery.vsf.VsfTerm
+MODES
+	(F,F) IS NONDET
+END
+
+// Elements to be added to a VSF
+vsfAdd :: Element, ca.ubc.jquery.vsf.VsfTerm
+MODES
+	(F,F) IS NONDET
+END
+
+// Elements to be removed from a VSF
+vsfRemove :: Element, ca.ubc.jquery.vsf.VsfTerm
+MODES
+	(F,F) IS NONDET
+	(B,B) IS SEMIDET
+	(F,B) IS NONDET
+END
+
+
+// Declares the name of a VSF
+vsfName :: ca.ubc.jquery.vsf.VsfTerm, String
+MODES
+	(F,F) IS NONDET
+END
+
+// Rule to determine which elements are eligible 
+// to be members of a vsf.
+vsfEligible :: Element
+MODES
+	(B) IS SEMIDET
+END
+
+vsfEligible(?Elt) :-
+	(method(?Elt) ; field(?Elt)),
+	child(?T, ?Elt),
+	outerType(?T).
+
+vsf(?VsfElement, ?Vsf) :-
+	vsfAdd(?VsfElement, ?Vsf),
+	vsfEligible(?VsfElement).
+	
+vsf(?VsfElement, ?Vsf) :-
+	vsfRule(?VsfElement, ?Vsf),
+	vsfEligible(?VsfElement),
+	NOT(vsfRemove(?VsfElement, ?Vsf)).
+	
+
+topQuery("VSF Members", 
+		"vsf(?Elt, ?Vsf), child(?T, ?Elt)",
+		["?Vsf","?T","?Elt"]).	
+	

@@ -1,0 +1,188 @@
+Tudo que eu escrever até o mod 24 é que eu tô reescrevendo 
+aqui no notepad, então as datas vão estar em uma data antiga
+porém a partir do mod 24 eu devo colocar as datas, estou 
+começando a reescrever em 28/05/21
+
+---------------------------------------------------------------------------------------------
+mod 2                                                                                                    30/03/20
+
+-Sobre a profissão de front end (cuida da imagem) X back end (que
+cuida dos códigos) que antes eram os web masters e os web de-
+signs e os responsivos que se adaptam em outros pelo celullar
+ou pelo computador
+---------------------------------------------------------------------------------------------
+mod 4 
+
+-Arquivo modelo HTML5
+
+Todo comando em html se chama tag, tem abertura e fechamen-
+to com < > e </>
+ex:
+<html> </html>
+---------------------------------------------------------------------------------------------
+mod 5
+-Html é pai de gêmeos
+
+head->
+-É o filho mais timido que não aparece muito 
+-Em html todo comando que é chamado de tag HEAD fica na 
+frente do código e é onde as principais informações ficam 
+para executar o príncipal como o estilo do programa (CSS),
+o utf-8 e etc...
+
+Body->
+
+-É o filho que mais aparece e geralmente fala bastante, 
+-É onde fica todo o conteúdo do site e o que o usuário tem que 
+interagir.
+--------------------------------------------------------------------------------------------
+mod 6 
+
+Indentação HTML 
+
+A tag script fica no final do body, ela serve para você associar o
+arquivo de back end do site e fica melhor também para carregar 
+o site no final, que os arquivos mais pesados ficam no final.
+--------------------------------------------------------------------------------------------
+mod 8                                                                                                   31/03/21 
+
+-Introdução a css
+
+    Header é o seletor para colocar as informações do css, as pessoas 
+geralmente só colocam na tag e o css mas isso fica feio e pesado,
+para um clean code melhor, é bom criar um código mais limpo 
+visivelmente e fica melhor com o tempo para você organizar o 
+código.
+
+    Dentro do css tem alguem "atributos" não me lembro o nome 
+agora, mas basicamente você pode determinar valores a esses 
+atributos que eles vão moldar a tag do jeito que você quiser.
+    Exemplos bons disso são os simples height e width, que 
+determinam altura e largura em px. 
+    Outro bem usado é o bacgraund que determina uma cor em 
+RGB
+header {
+	width: 100%;
+	height: 200px;
+	background: #ccc;
+}
+
+Falando em RGB, vai uma pequena explicação:
+
+R: red (vermelho)
+G: green (verde)
+B: Blue (Azul)
+
+cada um tem duas casas decimais e para ficar mais facil abreviam 
+eles com 3 caracteres ex: #000, essas cores vão de branco que é
+F  a preto 0.
+---------------------------------------------------------------------------------------------
+mod 9                                                                                                   10/04/20
+
+-Introdução ao Js 
+
+alert("x") é uma função pré definida que dá um alerta na tela do 
+computador, uma caichinha que fica no meio  da tela e o confirm
+é um alert, mas ele pode retornar algo.
+var declara variáveis em java script.
+na utilização de métodos em classes já pré definidas, se utiliza 
+o . igual no java, então fica bem simples assimde entender 
+um console.log(), nós estamos chamando o método log do objeto
+console do navegador, onde provávelmente você vai debugar 
+códigos.
+
+// e /**/ comenta normal em js 
+operadores também normal
+
+chama função com function x(){Bloco de código;} normal
+
+e pode criar function em escopo global, sem precisar de classes.
+
+---------------------------------------------------------------------------------------------
+mod 10                            27/05/20 mas eu refiz e escrevi em 28/05/21
+-JavaScript com formulário
+
+Duvidas sobre Tags em Estudando_A_Fundo1.txt
+
+
+   Utilizamos const para constantes, só declarar que a variavel é
+uma constante, bem rápido.
+const a = 10;
+
+   Os eventos do javascrit são bem conhecidos e realmente mágicos,
+o js escuta tudo que tá acontecendo por padrão se colocarmos a 
+função event no código e esse event se cria com um simples 
+
+document.querySelector()
+
+    Ou seja, ele tá chamando o metodo querySelector() do objeto 
+document que é uma classe padrão do js
+
+  Esse querySelector serve para você selecionar algo na tela por 
+um atributo id da tag, sem o #, e o add.EventListener() é uma 
+função do js para escutar que eu comentei.
+
+   No js tem uma forma muito lógica de chamar essas duas funções
+
+que é somente falar:
+document.querySelector(#id).addEventListener("x", e o que vc 
+quer executar.);
+
+   O que vc quer executar pode ser até uma função dentro dessas 
+duas funções.
+   Isso aí é um call back, ou seja, uma função anonima.
+   O x da função nada mais é do que a ação que vc quer escutar e 
+essa ação deve ser uma string entre "".
+    Inclusive, o querySelector pode ser usado até como o valor de 
+uma variável que ainda vai existir dentro do contexto do site
+    
+Uma função global incrivel, realmente assim que chega dá água
+na boca é o parseInt(x) que transforma a varivel x em inteiro 
+
+NOOOOOOSSA, olha isso men, chega da um sentimento bom 
+assim, nossa
+
+NOOOOOOOOOOOOOOOOOOOssa meu, olha isso meu 
+para vc selecionar o  valor que tá no formulário é só 
+botar uim .value
+AIII que delicia, minha nossa nossa nossa.
+
+
+O if é normal.... 
+
+
+incompleto 
+---------------------------------------------------------------------------------------------
+mod 11                                                                                                03/09/20
+
+Introdução ao Bootstrap
+
+   As pastas .min. são pastas compactadas sem espaços nem
+comentários e são mais leves para se aplicar em um site.
+   Você só vai usar o outro arquivo normal se você for editar coisas
+do bootstrap.
+
+   O atributo class é colocado como um atributo de uma tag. E o
+bootstrap como eles mesmo falaram funciona como um lego, você
+coloca a classe que você quer e ele altera a forma.
+
+---------------------------------------------------------------------------------------------
+mod 12                                                                                                03/09/20
+
+- Entendendo a documentação do Boostrap 
+
+link: https://getbootstrap.com/css
+
+     Espaços no atributo class é como se tivesse adicionando outra 
+classe na tag 
+
+O atributo required do bootstrap serve para você fazer um campo
+de um formulário um requisito
+---------------------------------------------------------------------------------------------
+mod 12                                                                                                09/10/20
+Exemplo de até onde vai o final da linha                                                 *
+
+Formulários HTML -
+
+A tag <label></label> é para dizer para o navegador que o que tá dentro dessa tela, é 
+enviado junto com ela. Ou seja, falar que é um formulário preenchivel  
