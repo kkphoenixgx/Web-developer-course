@@ -1,0 +1,12 @@
+Estudando a fundo 2 - Flexbox                                                     02/06/21
+
+Antes do flaxbox tinham 4 tipos de layout -
+
+Blocos, Inline, Table e Layout de posicionamento
+
+    Mas com flexbox tudo fica mais facil. 
+
+Para começar a trabalhar com flexbox tem que existir um contai-
+ner que tenha um elemento flex.
+
+O nome usado para a class container é "flex-conteiner";

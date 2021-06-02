@@ -1,0 +1,10 @@
+.flex-conteiner{    
+    display: flex;
+    background-color: black;
+}
+.flex-conteiner > div{
+
+    font-size: 0px;
+    margin: 0px;
+    
+}

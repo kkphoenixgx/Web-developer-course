@@ -1,0 +1,11 @@
+CssTips                                                                                                 02/06/21
+
+
+Todos os ditos aqui foram utilizados em uma classe do css flex:
+
+
+Backgraund escolhe a cor;
+margin define a margem de espaço;
+font size define o tamanho da fonte do texto na div; 
+Para se referir a classes usamos ., para filhos da classe usamos >;
+display : flex; Para definir que a estrutura é flexivel;
