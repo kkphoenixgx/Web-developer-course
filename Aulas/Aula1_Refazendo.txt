@@ -178,11 +178,58 @@ classe na tag
 
 O atributo required do bootstrap serve para você fazer um campo
 de um formulário um requisito
+
+A classe padrão para as divs são form-group
+
+A classe padrão do bootstrap para o objeto ser formulado como 
+um item do bootstrap é a classe form-control.
 ---------------------------------------------------------------------------------------------
 mod 12                                                                                                09/10/20
 Exemplo de até onde vai o final da linha                                                 *
 
 Formulários HTML -
 
-A tag <label></label> é para dizer para o navegador que o que tá dentro dessa tela, é 
-enviado junto com ela. Ou seja, falar que é um formulário preenchivel  
+A tag <label></label> é para dizer para o navegador que o que tá 
+dentro dessa tela, é enviado junto com ela. Ou seja, falar que é 
+um formulário preenchivel  
+
+alguns atributos utilizaveis comumente são:
+
+required serve para algo que é obrigatorio no bootstrap, dá para
+fazer um campo ser obrigatorio para enviar o formulário indepen-
+dente do metodo. Ele é geralmente posto no final de todos
+os atributos da tag.
+
+    Placeholder serve para colocar um texto sujestivo dentro do 
+imput.
+
+input é uma tag para partes do formulários onde o úsuario é 
+capaz de colocar partes responsivas.
+
+a tag label, permite você colocar uma descrição para aquele
+campo, podendo ser qualquer string
+
+    O type é sempre muito utilizado para definir o type da tag
+em um imput ou uma label e entre esses types tem: email, nome,
+ senha, data...
+    Uma coisa muito legal com o type data é que essa propriedade 
+vem com a capacidade de colocar um calendário no imput que 
+antes só dava com um pluguim e ele com um min = "x" e um
+max = "x" ele determina qual os limites. 
+
+    Uma dúvida muito decorrente quando vai se programar, é que 
+o type do botão para ele conseguir enviar um formulário, deve ser 
+um type submit.
+     Num formulário, o ideal é ter um method na label com o méto-
+do que você vai fazer para enviar arquivos nesse formulário e 
+action é para qual arquivo vai.
+
+Vou textar TODAS as funcionalidades do bootstrap
+---------------------------------------------------------------------------------------------
+mod 13                                                                                                17/09/20
+
+Formulário parte 2-
+
+Ainda em formulários. 
+
+O type radius faz um botão ao lado do texto 
