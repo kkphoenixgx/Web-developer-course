@@ -1,4 +1,4 @@
-Imputs -
+Inputs -
     Tem como colocar coisas dentro do imput mas não contando 
 como imputs, somente colocando na classe a classe group, dividi-
 da por um - 
