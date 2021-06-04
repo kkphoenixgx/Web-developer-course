@@ -1,0 +1,16 @@
+.flex-container{
+    display: flex;
+    background-color: darkcyan;
+}
+div #Div1{
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 10px;
+    font-size: 25px;
+}
+div #Div2{
+    background-color: crimson;
+    margin: 5px;
+    padding: 10px;
+    font-size: 25px;
+}
