@@ -1,25 +1,60 @@
+/*
+body{
+    margin: 0px;
+    display: flex;margin: 0px;
+    display: flex;
+}
+*/
+
 header{
 
-    width: 100% ;
-    height:150px ;
+    width: 100%;
+    height:200px;
     background-color: #5E299A ;
     
-
 }
 header .container{
 
-position: relative;
+    position: relative;
 
+}
+
+/*
+header . .header-black ul{
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    height: 100%;
+    text-align-last: end;
+}
+*/
+
+header .header-black li{
+    background-image: url("../img/clubs.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px ;
+    /*
+    display: flex;
+    */
+}
+
+header .header-black li a {
+    width: 32px;
+    height: 32px;
+    display: block;
 }
 
 header .header-black{
 
-background-color: #000;
-height: 40px;
+    background-color: #000;
+    height: 40px;
 
 }
 
-header #logotipo {
+header .container img {
     position: absolute;
-    top: -20px
+    top: -30px;
 }

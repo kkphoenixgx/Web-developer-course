@@ -1,0 +1,18 @@
+
+
+none : nenhum valor específico.
+length: qualquer unidade de medida.
+max-content:
+min-content: 
+fit-content(length):
+unset: desliga;
+initial: voltar ao valor inicial.
+inherit: herdar do pai.
+
+Propriedades css:
+    height (padrão auto) (Valor Herdado: não){tamanho vertical}
+        auto
+        length
+        initial
+        inherit
+    min-height ()

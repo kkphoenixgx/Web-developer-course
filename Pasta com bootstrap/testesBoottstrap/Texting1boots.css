@@ -1,0 +1,26 @@
+header{
+
+    width: 100%;
+    height:200px;
+    background-color: #5E299A ;
+    
+}
+
+header .header-black{
+
+    background-color: #000;
+    height: 40px;
+
+}
+
+header .header-black li{
+    background-image: url("../../Projetos/Projeto01/img/clubs.png");
+    background-repeat: no-repeat;
+    margin: 4px;
+}
+
+header .header-black li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
