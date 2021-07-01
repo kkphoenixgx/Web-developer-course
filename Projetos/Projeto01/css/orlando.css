@@ -44,3 +44,13 @@ header .container img {
     position: absolute;
     top: -30px;
 }
+
+/* Resolvi na mão sem bootstrap 
+
+header .container ul{
+    padding: 0px 0px;
+    text-align-last: end;
+    padding: 40;
+}
+
+*/
