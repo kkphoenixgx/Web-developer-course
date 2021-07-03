@@ -123,3 +123,20 @@ para ter um background de fundo e para a imagem não repetir:
 
 background-repeat: no-repeat;
 
+03/07/21------
+
+Eu tive 4 semanas de recesso por causa do problema do
+bootstrap, não consegui colocar os itens alinhados com o
+lado direito da tela, então depois desse tempo todo temos
+uma importante lição
+
+NUNCA, SOBRE HIPÓTESE ALGUMA MUDE O NOME DAS PASTAS DO 
+BOOTSTRAP, POIS SE NÃO OS ARQUIVOS SÃO AFETADOS, seu 
+bostinha.
+
+inclusive nessa semana de recesso eu aprendi muita coisa
+criando uns joguinhos, muito bom, te desafio a tentar.
+
+ele explicou também o que é o box model, dúvidas? olha o 
+arquivo dicionário.txt
+

@@ -1,3 +1,4 @@
+/*
 *{
     box-sizing: border-box;
 }
@@ -5,26 +6,28 @@ html, body{
     margin:0;
     padding:0;
 }
+*/
 
 header{
-    top: -20px;
     width: 100% ;
     height:150px ;
     background-color: #5E299A ;
-    position: relative;
 }
 
 header .container{
-
     position: relative;
+}
 
+header .header-black{
+    background-color: #000;
+    height: 40px;
 }
 
 header .header-black li{
     background-image: url("../img/clubs.png");
     background-repeat: no-repeat;
     display: inline-block;
-    margin: 4px ;
+    margin: 4px;
 }
 
 header .header-black li a {
@@ -33,24 +36,77 @@ header .header-black li a {
     display: block;
 }
 
-header .header-black{
-
-    background-color: #000;
-    height: 40px;
-
-}
-
 header .container img {
     position: absolute;
     top: -30px;
 }
 
-/* Resolvi na mão sem bootstrap 
+/* -----------------------clubs---------------------------*/
 
-header .container ul{
-    padding: 0px 0px;
-    text-align-last: end;
-    padding: 40;
+header .header-black li.club-01{
+    background-position: 0px;
 }
-
-*/
+header .header-black li.club-02{
+    background-position: -48px;
+}
+header .header-black li.club-03{
+    background-position: -94px;
+}
+header .header-black li.club-04{
+    background-position: -140px;
+}
+header .header-black li.club-05{
+    background-position: -189px;
+}
+header .header-black li.club-06{
+    background-position: -239px;
+}
+header .header-black li.club-07{
+    background-position: -288px;
+}
+header .header-black li.club-08{
+    background-position: -335.5px;
+}
+header .header-black li.club-09{
+    background-position: -379px;
+}
+header .header-black li.club-10{
+    background-position: -429px;
+}
+header .header-black li.club-11{
+    background-position: -479px;
+}
+header .header-black li.club-12{
+    background-position: -528px;
+}
+header .header-black li.club-13{
+    background-position: -578px;
+}
+header .header-black li.club-14{
+    background-position: -628px;
+}
+header .header-black li.club-15{
+    background-position: -674px;
+}
+header .header-black li.club-16{
+    background-position: -718px;
+}
+header .header-black li.club-17{
+    background-position: -761px;
+}
+header .header-black li.club-18{
+    background-position: -806px;
+}
+header .header-black li.club-19{
+    background-position: -854px;
+}
+header .header-black li.club-20{
+    background-position: -901px;
+}
+header .header-black li.club-21{
+    background-position: -948px;
+}
+header .header-black li.club-22{
+    background-position: -996px;
+}
+/* -------------------------------------------------------*/
