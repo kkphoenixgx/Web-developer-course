@@ -21,7 +21,6 @@ Box-Model html:
 
     nomes dos espaçamentos dos box-model em ordem(Margin, border, padding, content)
 
-
 Propriedades css:
     height:       (padrão auto) (Valor Herdado: não){tamanho vertical}
             
