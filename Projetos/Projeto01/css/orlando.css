@@ -16,7 +16,7 @@ html, body{
 
 header{
     width: 100% ;
-    height:150px ;
+    height:130px;  /* 150px */
     background-color: #5E299A ;
 }
 
@@ -44,19 +44,46 @@ header .header-black li a {
 
 header .container img {
     position: absolute;
-    top: 20px;
+    top: 3px; /* 20px */
 }
 
 #menu{
     display: inline-block;
     position: absolute;
     right: 0;
-    padding: 32px;
+    padding: 25px; /* 32px */
 }
 
 #menu li{
     display: inline-block;
     font-family: "Open-Sans";
+}
+
+#menu li.search{
+    width: 182px;
+    border: none;
+}
+
+#menu li.search input{
+    background-color: #5C2D90;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+#menu li.search ::-webkit-input-placeholder{
+    color: #fff;
+}
+#menu li.search button{
+    height: 30px;
+    border: none;
+    background-color: #5C2D90;
+    position: absolute;
+    right: 3px;
+}
+
+#menu li.search button i{
+    color: rgba(255, 255, 255, .5);
 }
 
 #menu ul{
@@ -66,7 +93,7 @@ header .container img {
 #menu li a{
     color: #FFF;
     font-size: 16px;
-    padding: 18px 25px;
+    margin: 18px 25px;
 }
 
 /* -----------------------clubs---------------------------*/
