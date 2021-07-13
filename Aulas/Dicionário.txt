@@ -22,6 +22,10 @@ Box-Model html:
     nomes dos espaçamentos dos box-model em ordem(Margin, border, padding, content)
 
 Propriedades css:
+
+    z-index: (padrão: none)(Valor herdado: não) {profundidade de um item}
+        number;
+
     height:       (padrão auto) (Valor Herdado: não){tamanho vertical}
             
             auto;
@@ -37,9 +41,7 @@ Propriedades css:
     Position:     (sticky)(não){Determina qual o tipo de posição determinada pelas coordenadas} 
         sticky;   {determina que a posição é fixada}
         absolute; {determina que a posição é absoluta a qualquer ordem}
-        relative; {determina que a posição é relativa ao pai}
-
-
+        relative; {determina que a posição é relativa ao pai}    
 
 Seletores:
     . = para classes;

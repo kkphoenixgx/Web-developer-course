@@ -13,11 +13,18 @@ html, body{
     src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
     font-size: 1em;
 }
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+    font-size: 1em;
+}
 
 header{
     width: 100% ;
     height:130px;  /* 150px */
-    background-color: #5E299A ;
+    background-color: rgba(94,41,154, 0.8);
+    position: absolute;
+    z-index: 2;
 }
 
 header .container{
@@ -45,6 +52,7 @@ header .header-black li a {
 header .container img {
     position: absolute;
     top: 3px; /* 20px */
+    z-index: 3;
 }
 
 #menu{
@@ -94,6 +102,33 @@ header .container img {
     color: #FFF;
     font-size: 16px;
     margin: 18px 25px;
+}
+
+#banner {
+    width: 100%;
+    height: 728px;
+    position: relative;
+    background: url(../img/banner.jpg) no-repeat;
+    background-position: -72px -47px;
+    top: 22px;
+    z-index: 1;
+}
+
+#banner h1{
+    color: #FFF;
+    top: 300px;
+    position: relative;
+    font-size: 92px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.45);
+    font-family: 'OpenSans-Light';
+    margin-left: 15px;
+}
+#banner h1 small{
+    font-size: 32px;
+    display: block;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-left: 54px;
 }
 
 /* -----------------------clubs---------------------------*/
