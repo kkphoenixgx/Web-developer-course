@@ -131,6 +131,62 @@ header .container img {
     margin-left: 54px;
 }
 
+#news{
+    position: relative;
+
+}
+
+#news h2{
+    color: #5E2799;
+    font-family: 'Open-Sans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 28px;
+}
+
+#news hr{
+    border: #FDE192 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#news .thumbnails{
+    margin-top: 20px;
+}
+
+#news .thumbnails h3{
+    color: #5E299A;
+    font-size: 16px;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#news .thumbnails time{
+    color: #A7A7A7;
+}
+
+#estatisticas{
+    background-color: #5E299A;
+    width: 100%;
+    height: 172px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+#estatisticas p{
+    color: #FDE092;
+    text-transform:uppercase;
+    font-family: 'Open-Sans-Light';
+    font-size: 29px;
+    margin-top: 62px;
+}
+#estatisticas p small{
+    color: #fff;
+    font-size: 24px;
+    display: block;
+}
+
 /* -----------------------clubs---------------------------*/
 
 header .header-black li.club-01{
