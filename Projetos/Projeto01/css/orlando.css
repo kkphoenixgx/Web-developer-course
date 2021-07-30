@@ -136,6 +136,10 @@ header .container img {
 
 }
 
+.text-center{
+    margin-top: 12px;
+}
+
 #news h2{
     color: #5E2799;
     font-family: 'Open-Sans-Light';
@@ -153,7 +157,7 @@ header .container img {
 }
 
 #news .thumbnails{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #news .thumbnails h3{
