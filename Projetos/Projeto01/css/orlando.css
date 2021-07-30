@@ -146,7 +146,8 @@ header .container img {
 }
 
 #news hr{
-    border: #FDE192 solid 2px;
+    border: #ebb215 solid 2px;
+    background-color: #ebb215;
     width: 200px;
     margin: 0 auto;
 }
@@ -185,6 +186,54 @@ header .container img {
     color: #fff;
     font-size: 24px;
     display: block;
+}
+
+.call-to-action{
+    text-align: center;
+    margin-top: 105px;
+}
+
+.call-to-action h2{
+    color: #5E2799;
+    font-family: 'Open-Sans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.call-to-action hr{
+    border: #ebb215 solid 8px;
+    background-color: #ebb215;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.call-to-action p{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #656565;
+}
+
+.call-to-action .btn-roxo{
+    color: #fff;
+    background-color: #5E299A;
+    border-color: #5E299A;
+    min-width: 164px;
+    height: 44px;
+}
+.call-to-action .btn-amarelo{
+    color: black;
+    background-color: #FDE192;
+    border-color: #FDE192;
+    min-width: 164px;
+    height: 44px;
+}
+
+.call-to-action-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* -----------------------clubs---------------------------*/
