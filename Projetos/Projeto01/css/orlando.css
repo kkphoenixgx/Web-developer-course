@@ -109,7 +109,7 @@ header .container img {
     height: 728px;
     position: relative;
     background: url(../img/banner.jpg) no-repeat;
-    background-position: -72px -47px;
+    background-position: -47px -47px;
     top: 22px;
     z-index: 1;
 }
@@ -238,6 +238,46 @@ header .container img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+footer{
+    margin-top: 110px;
+}
+
+footer .row{
+    width: 99.65vw;
+}
+
+footer .row-cinza-claro{
+    height: 200px;
+    background-color: #171F26;
+} 
+footer .row-cinza-escuro{
+    background-color: #11171D;
+    border-top: #11171d solid 1px;
+    height: 60px;
+}
+
+footer .text1{
+    color :#666;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer .text-roxo{
+    color :#623291;
+    font-family: 'OpenSans';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer .container{
+    align-self: center;
+}
+
+footer .container > p{
+    margin: 0px 28px 0px 28px;
 }
 
 /* -----------------------clubs---------------------------*/
