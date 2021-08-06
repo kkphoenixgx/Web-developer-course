@@ -249,7 +249,7 @@ footer .row{
 }
 
 footer .row-cinza-claro{
-    height: 200px;
+    height: 220px;
     background-color: #171F26;
 } 
 footer .row-cinza-escuro{
@@ -278,6 +278,105 @@ footer .container{
 
 footer .container > p{
     margin: 0px 28px 0px 28px;
+}
+
+footer .columns4{
+    height: 200px;
+    width: 377px;
+    float: left;
+}
+
+footer .footer-logotipo{
+    position: relative;
+    top: 19px;
+    left: 19px;
+}
+
+footer .col-popular-posts, footer .col-links, footer .col-get-in-touch{
+    padding-top: 40px;
+}
+
+footer .row-cols h4{
+    font-family: 'Open-Sans';
+    font-size: 16px;
+    color:#FFF;
+    padding-bottom: 9px;
+    border-bottom: #242D37 1px solid;
+}
+
+footer .row-cols h5{
+    color: #666;
+    font-family: Arial;
+    font:14px;
+}
+
+footer .row-cols time{
+    color:#FDE092;
+    font-family: Arial;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+footer .row-cols{
+    width: auto;
+}
+
+footer .col-links a{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer .col-get-in-touch address{
+    color:#666;
+    font-family: Arial;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .col-get-in-touch address span{
+    display: inline-block;
+}
+
+footer .col-get-in-touch i{
+    color: #989898;
+    font-size: 20px;
+}
+
+footer .fa-map-marker, .fa-phone{
+    padding-right: 14px;
+}
+
+.col-get-in-touch p{
+    color: #666;
+}
+
+footer .list-socials{
+    margin-top: 17px;
+}
+
+footer .list-socials li{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+footer .list-socials a{
+    display: block;
+    border: #9B9B9B 1px solid;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    text-align: center;
+}
+footer.list-socials i{
+    font-size: 16px;
+    margin: 7px auto;
+}
+
+footer .fa-pinterest-p{
+    padding: 0px;
 }
 
 /* -----------------------clubs---------------------------*/
