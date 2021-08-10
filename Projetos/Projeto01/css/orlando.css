@@ -55,6 +55,11 @@ header .container img {
     z-index: 3;
 }
 
+#banner h1.efeito{
+    color:rgb(96, 224, 233);
+    font-size:9em;
+}
+
 #menu{
     display: inline-block;
     position: absolute;
@@ -122,6 +127,7 @@ header .container img {
     text-shadow: 2px 2px 2px rgba(0,0,0,.45);
     font-family: 'OpenSans-Light';
     margin-left: 15px;
+    transition: 1s;
 }
 #banner h1 small{
     font-size: 32px;

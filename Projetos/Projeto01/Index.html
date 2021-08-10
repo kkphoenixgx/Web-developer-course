@@ -14,7 +14,7 @@
         <header>
 
             <div class="container">
-                <img id="#logotipo" src="img/orlando-logo.png" alt="logotipo">
+                <img id="logotipo" src="img/orlando-logo.png" alt="logotipo">
             </div>
             
             <div class="header-black">
@@ -225,8 +225,17 @@
             </div>
         </footer>
 
-        <script src="lib/jquery/jquery.min.js"></script>
         <script src="lib/bootstrap/js/bootstrap.js"></script>
+        <script src="lib/jquery/jquery/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#logotipo").on("mouseover",function(){
+                    $("#banner h1").addClass("efeito");
+                }).on("mouseout", function(){
+                    $("#banner h1").removeClass("efeito");
+                });
+            });
+        </script>
 
     </body>
 
