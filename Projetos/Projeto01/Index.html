@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <title>Orlando City</title>
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
         <script src="https://kit.fontawesome.com/c4e6061e97.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/orlando.css">
 
@@ -87,27 +89,70 @@
                     <h2>lasted news</h2>
                     <hr>
                 </div>
-            
-                <div class="row thumbnails">
-                    <div class="col-md-3">
-                        <img src="img/noticia-thumb.jpg" alt="Noticia">
-                        <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
-                        <time>December 21, 2015</time>
+                
+                <div class="row thumbnails owl-carousel owl-theme">
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="img/noticia-thumb.jpg" alt="Noticia">
-                        <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
-                        <time>December 21, 2015</time>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="img/noticia-thumb.jpg" alt="Noticia">
-                        <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
-                        <time>December 21, 2015</time>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img src="img/noticia-thumb.jpg" alt="Noticia">
-                        <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
-                        <time>December 21, 2015</time>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class= "inner-item">
+                            <img src="img/noticia-thumb.jpg" alt="Noticia">
+                            <h3>Orlando City Acquires Joe Bendik from Toronto FC</h3>
+                            <time>December 21, 2015</time>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,15 +270,32 @@
             </div>
         </footer>
 
+        <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
         <script src="lib/bootstrap/js/bootstrap.js"></script>
         <script src="lib/jquery/jquery/jquery.min.js"></script>
         <script>
-            $(document).ready(function(){
-                $("#logotipo").on("mouseover",function(){
-                    $("#banner h1").addClass("efeito");
-                }).on("mouseout", function(){
-                    $("#banner h1").removeClass("efeito");
-                });
+            $(".thumbnails").owlCarousel({
+                loop:true,
+                margin:10,
+                nav: true,
+                navText: ["<",">"],
+                responsive:{
+                    0:{
+                        items: 1,
+                    },
+                    180:{
+                        items: 3,
+                    },
+                    480:{
+                        items: 4,
+                    },
+                    768:{
+                        items: 5,
+                    },
+                    1080:{
+                        items: 6,
+                    }
+                }
             });
         </script>
 
