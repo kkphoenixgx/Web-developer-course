@@ -1,6 +1,92 @@
-# Dicionário css
+# Dicionário css e HTML
 
-## atributos css
+## HTML5
+
+### TAGS HTML5
+
+* **a** = pode definir que algo é clicável
+
+  ~~~html
+  <a src="link"> <h1>Texto altamente clicável</h1> </a>
+  ~~~
+
+  * *src* = define o link
+* **Body** = Cria o corpo da página.
+
+  ~~~html
+  <body></body>
+  ~~~
+
+  .
+* **footer** = define o rodapé da página, ótimo para organização.
+
+~~~html
+<footer></footer>
+~~~
+
+* **head** = cria o cabeçalho da página onde podemos definir os scripts.
+
+  ~~~html
+  <header></header>
+  ~~~
+
+  .
+* **h** = Pode definir um texto na tela, geralmente usado para títulos
+
+  ~~~html
+  <h1>Título</h1>
+  <h2>Subtítulo</h2>
+  <h3>Subtítulo do Subtítulo</h3>
+  <h4> Subtítulo do Subtítulo do Subtítulo</h4>
+  <h5>Subtítulo do Subtítulo do Subtítulo do Subtítulo</h5>
+  <h6>Subtítulo do Subtítulo do Subtítulo do Subtítulo do subtítulo</h6>
+  ~~~
+
+  .
+* **img** = define uma imagem
+
+  ~~~html
+  <img alt="" src=""></img>
+  ~~~
+
+  * **src** = define a imagem
+  * **alt** = define a descrição de uma imagem
+* **link** = direciona para um script frontend, como um css
+
+  ~~~html
+  <link></link>
+  ~~~
+
+  * *rel ="stylesheet"* = Define que este é o elemento de estilo
+  * *href* = define o script.
+* **script** = pode criar um espaço para definirmos scripts em js, php...
+
+  ~~~html
+  <script></script>
+  ~~~
+
+  * *src* = define o script
+* **section** = define uma seção da página, o conteúdo principal da página, bom para organização.
+
+  ~~~html
+  <section></section>
+  ~~~
+
+  .
+* **Video** = Cria um espaço onde podemos rodar uma mídia
+  
+  ~~~html
+  <Video></Video>
+  ~~~
+
+  * *src* = Define a mídia
+  * *autoplay* = faz ele rodar sozinho a media
+
+A mano, preguiça, você já sabe
+
+## CSS
+
+### atributos css
 
 * **none** : nenhum valor específico.
 * **length**: qualquer unidade de medida.
@@ -10,9 +96,6 @@
 
 * **max-content**:
 * **min-content**:
-* **fit-content(length)**:
-
-## Box-Model html
 
 * **top**: length;
 * **right**: length;
@@ -21,7 +104,9 @@
 
 nomes dos espaçamentos dos box-model em ordem(Margin, border, padding, content)
 
-## Propriedades css
+* **fit-content(length)**:
+
+### Propriedades css
 
 * **z-index: number** = (padrão: none)(Valor herdado: não) Pode setar a profundidade de um item
 
@@ -51,9 +136,9 @@ nomes dos espaçamentos dos box-model em ordem(Margin, border, padding, content)
     **absolute** = determina que a posição é absoluta a qualquer ordem  
     **relative** = determina que a posição é relativa ao pai}  
 
-## Seletores Css
+### Seletores Css
 
-### Referencias
+#### Referencias
 
 * **x** = elemento
   1x, 2x = outro elemento
@@ -64,7 +149,7 @@ nomes dos espaçamentos dos box-model em ordem(Margin, border, padding, content)
   1y, 2y = outro atributo
 * **z** = valor
 
-### Seletores
+#### Seletores
 
 * **.** = para classes;
 
