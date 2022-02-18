@@ -26,9 +26,10 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     </head>
+    
     <body>
         
-        <header class="otherPagesHeader">
+        <header class="otherPagesHeader" data-file="Video">
 
             <div class="container">
                 <img id="logotipo" src="view/img/orlando-logo.png" alt="logotipo">
@@ -88,6 +89,7 @@
                 </div>
 
             </div>
+            
         </header>
 
         <section>
@@ -97,12 +99,39 @@
 
                     <div class="row text-center">
                         <h2>Vídeos</h2>
-                        <hr>
+                        <hr style="margin-bottom: 20px;">
                     </div>
 
                     <div class="row">
-                        Vídeos...    
-                    </div>                    
+
+                        <Video src="./view/mp4/highlights.mp4" controls poster ="./view/img/highlights.jpg" style="margin-bottom: 20px;"></Video>
+                        <input type="range" id="volume" min="0" max="1" step="0.01">
+                        <button type="button" id="btn-play-pouse" class="btn btn-success">Play</button>
+
+                        <div class="row text-center">
+                            <h2>Recent Activity</h2>
+                            <hr style="margin-bottom: 20px;">
+                        </div>
+                        
+                        <div class="row thumbnails owl-carousel owl-theme">
+                            <div class="item" data-video="highlights">
+                                <div class= "inner-item">
+                                    <img src="./view/img/highlights.jpg" alt="Noticia">
+                                    <h3>Highlights</h3>
+                                </div>
+                            </div>
+
+                            <div class="item" data-video="Orlando_City_Foundation_2015">
+                                <div class= "inner-item">
+                                    <img src="./view/img/Orlando_City_Foundation_2015.jpg" alt="Noticia">
+                                    <h3>Orlando City Foundation 2015</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div> 
 
                 </div>
 

@@ -81,6 +81,16 @@
 
   * *src* = Define a mídia
   * *autoplay* = faz ele rodar sozinho a media
+  * *poster* = define para o uma tag html a imagem que vai ficar como standard, a thumbnail, ela recebe o path do arquivo.
+* **audio** = define um player básico para áudios
+
+  ~~~html
+  <audio ></audio
+  ~~~
+
+  * *src* = define o áudio
+  * *autoplay* = faz ele rodar sozinho a media
+  * *controls* = define que essa tag vai ter controles básicos.
 
 A mano, preguiça, você já sabe
 

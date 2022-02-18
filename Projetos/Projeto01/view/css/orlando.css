@@ -214,7 +214,7 @@ header .container img {
 
 .call-to-action{
     text-align: center;
-    margin-top: 105px;
+    margin-top: 50px;
 }
 
 .call-to-action h2{
@@ -397,6 +397,10 @@ footer.list-socials i{
 
 footer .fa-pinterest-p{
     padding: 0px;
+}
+
+video {
+    width: 60%;
 }
 
 /* -----------------------clubs---------------------------*/

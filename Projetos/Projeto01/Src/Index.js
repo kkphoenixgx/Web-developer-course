@@ -1,3 +1,5 @@
 import {default as Controller} from "./controller/ControllerIndex.js"
 
-window.site = new Controller();
+let headerElement = document.querySelector("header")
+let Page = headerElement.dataset.file
+window.site = new Controller(Page);
